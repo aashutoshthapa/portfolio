@@ -2,7 +2,7 @@ Portfolio Projects and Tests
 
 Welcome to my repository! 👋
 
-This is where I am learning HTML and CSS and practicing by uploading my small projects and tests. I’m hosting this site using Netlify, and it’s directly connected to this GitHub repository for seamless updates.
+This is where I am learning HTML and CSS and practicing by uploading my small projects and tests. I’m hosting this site using Cloudfare , and it’s directly connected to this GitHub repository for seamless updates.
 
 What You’ll Find Here
 	•	Small HTML and CSS projects.
@@ -12,7 +12,7 @@ What You’ll Find Here
 Hosting
 
 This site is live and hosted on Netlify!
-Check it out here: aashutoshport.netlify.app
+Check it out here: aashutoshthapa.com.np
 
 Disclaimer
 
