@@ -5,18 +5,122 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Projects</title>
   <link rel="stylesheet" href="../style.css">
+  <style>
+    /* Custom styles for the Projects page */
+    body {
+      background-color: #d7e2b6; /* Light green */
+      color: #778983; /* Dark green-gray for text */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #fad7be; /* Light peach */
+      color: #faa96c; /* Vibrant orange */
+      padding: 15px 0;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #faa96c;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .projects-section {
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #f7f7f7; /* White background for cards */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      max-width: 800px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #faa96c; /* Vibrant orange links */
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .category-title {
+      font-size: 1.2rem;
+      color: #778983; /* Dark green-gray */
+      margin-top: 20px;
+    }
+
+    footer {
+      margin-top: 30px;
+      background-color: #fad7be; /* Light peach */
+      color: #778983; /* Dark green-gray */
+      padding: 15px 0;
+    }
+
+    footer a {
+      color: #faa96c; /* Vibrant orange links */
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>My Projects</h1>
   </header>
+  
   <main>
-    <p>Welcome to my projects page! Here are the projects I'm working on:</p>
-    <ul>
-      <li>Project 1: <a href="project1/index.html">View Project</a></li>
-      <li>Project 2: <a href="#">Coming Soon</a></li>
-    </ul>
+    <section>
+      <h2>Hello, These Are My Projects</h2>
+      <p>
+        I am currently learning HTML and CSS, so these aren't advanced projects by any means.
+        These projects reflect what I'm learning, and some are completed while others are still
+        being updated as I continue to learn. 
+      </p>
+      <p>
+        My real projects, which I’ll start building after mastering web development, 
+        will also be listed here in the future.
+      </p>
+    </section>
+
+    <section class="projects-section">
+      <h2>Learning Projects</h2>
+      <ul>
+        <li>Project 1: <a href="project1/index.html">View Project</a></li>
+        <li>Project 2: <a href="#">Will be coming Soon</a></li>
+      </ul>
+    </section>
+
+    <section class="projects-section">
+      <h2 class="category-title">Real Projects (To Be Done Later)</h2>
+      <p>Stay tuned! My completed and polished projects will appear here in the future.</p>
+    </section>
   </main>
+  
   <footer>
     <p>Back to <a href="../index.html">Home</a></p>
   </footer>
